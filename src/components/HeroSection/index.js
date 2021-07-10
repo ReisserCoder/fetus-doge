@@ -31,7 +31,9 @@ function HeroSection() {
         <HeroImage alt='logo' src={Image}></HeroImage>
         <HeroH1>Fetus Doge</HeroH1>
         <HeroP>
-          The youngest Doge yet.
+          The youngest Doge yet. <br></br>
+          The biggest potential. <br></br>
+          Goal: The Greatest Doge of all Time (GDAT)
         </HeroP>
         <HeroBtnWrapper>
           <Button
