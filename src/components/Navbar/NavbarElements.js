@@ -81,7 +81,7 @@ export const NavBtn = styled.nav`
 `;
 
 export const NavLinks = styled(LinkS)`
-  color: #fff;
+  color: #FFF;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -109,7 +109,7 @@ export const NavBtnLink = styled(LinkR)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #fff;
+    background: #FFF;
     color: #F2BAA7;
   }
 `;

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Button } from '../Button';
 
 import Video from '../../videos/video.mp4';
-import Image from '../../images/logo.png'
+import Image from '../../images/logo.png';
 import {
   HeroContainer,
   HeroBg,
@@ -11,6 +11,7 @@ import {
   HeroImage,
   HeroH1,
   HeroP,
+  CA,
   HeroBtnWrapper,
   ArrowForward,
   ArrowRight
@@ -31,13 +32,16 @@ function HeroSection() {
         <HeroImage alt='logo' src={Image}></HeroImage>
         <HeroH1>Fetus Doge</HeroH1>
         <HeroP>
-          The youngest Doge yet. <br></br>
+          The youngest Doge. <br></br>
           The biggest potential. <br></br>
-          Goal: The Greatest Doge of all Time (GDAT)
+          Goal: The Greatest Doge of all Time (GDAT) <br></br>
+          <CA>
+          CA: 0x045fd3795068358343608f469cd1a9b184be6f70
+          </CA>
         </HeroP>
         <HeroBtnWrapper>
           <Button
-            href='//poocoin.app'
+            href='//poocoin.app/tokens/0x045fd3795068358343608f469cd1a9b184be6f70'
             smooth={true}
             duration={500}
             spy={true}
@@ -49,6 +53,20 @@ function HeroSection() {
             onMouseLeave={onHover}
           >
             Chart {hover ? <ArrowForward /> : <ArrowRight />}
+          </Button>
+          <Button
+            href='//exchange.pancakeswap.finance/#/swap'
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact='true'
+            offset={-80}
+            primary='true'
+            dark='true'
+            onMouseEnter={onHover}
+            onMouseLeave={onHover}
+          >
+            Buy {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>
