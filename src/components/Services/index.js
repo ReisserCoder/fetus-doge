@@ -21,7 +21,7 @@ const Services = () => {
           <ServicesIcon src={Icon1} />
           <ServicesH2>4% FDoge Redistribution</ServicesH2>
           <ServicesP>
-            The more you hold the more you recieve.
+            The more you hold the more you receive.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
