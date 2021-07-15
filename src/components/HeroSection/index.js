@@ -55,7 +55,7 @@ function HeroSection() {
             Chart {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
           <Button
-            href='//exchange.pancakeswap.finance/#/swap'
+            href='https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x045fd3795068358343608f469cd1a9b184be6f70'
             smooth={true}
             duration={500}
             spy={true}
