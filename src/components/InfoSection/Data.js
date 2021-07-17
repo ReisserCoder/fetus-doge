@@ -24,7 +24,7 @@ export const homeObjTwo = {
   topLine: 'Fetus Doge Plan',
   headline: 'Failed marketing has ruined enough projects',
   description:
-    'The core team of eight has been around long enough to see what works and what does not. For more details, check the litepaper in the link at the bottom of the page.',
+    'The core team of seven has been around long enough to see what works and what does not. For more details, check the litepaper in the link at the bottom of the page.',
   buttonLabel: 'Meet the team',
   imgStart: true,
   img: require('../../images/diamonds.jpg'),
