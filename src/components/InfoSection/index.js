@@ -23,6 +23,7 @@ const InfoSection = ({
   headline,
   description,
   buttonLabel,
+  href,
   img,
   alt,
   id,
@@ -44,7 +45,7 @@ const InfoSection = ({
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   <Button
-                    href='//t.me/joinchat/vtnlmb3g1KE1NTY8'
+                    href={href}
                     smooth={true}
                     duration={500}
                     spy={true}

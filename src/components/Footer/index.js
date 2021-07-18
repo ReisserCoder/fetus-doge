@@ -30,7 +30,7 @@ const Footer = () => {
         <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLink href="//docs.google.com/document/d/1vuNt47kSfiQOvMuh01VmTuWNDAYHg0c2zMt2HPGSlcc">
+              <FooterLink href='//docs.google.com/document/d/1vuNt47kSfiQOvMuh01VmTuWNDAYHg0c2zMt2HPGSlcc'>
                 Litepaper
               </FooterLink>
             </FooterLinkItems>

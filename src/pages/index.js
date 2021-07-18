@@ -7,7 +7,8 @@ import InfoSection from '../components/InfoSection';
 import {
   homeObjOne,
   homeObjTwo,
-  homeObjThree
+  homeObjThree,
+  homeObjFour
 } from '../components/InfoSection/Data';
 import Services from '../components/Services';
 
@@ -24,8 +25,9 @@ function Home() {
       <HeroSection />
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
-      <Services />
       <InfoSection {...homeObjThree} />
+      <Services />
+      <InfoSection {...homeObjFour} />
       <Footer />
     </>
   );
