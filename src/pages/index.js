@@ -10,6 +10,7 @@ import {
   homeObjThree,
   homeObjFour
 } from '../components/InfoSection/Data';
+import UsecasesSection from '../components/UsecasesSection';
 import Services from '../components/Services';
 
 function Home() {
@@ -25,6 +26,7 @@ function Home() {
       <HeroSection />
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjThree} />
+      <UsecasesSection />
       <InfoSection {...homeObjTwo} />
       <Services />
       <InfoSection {...homeObjFour} />

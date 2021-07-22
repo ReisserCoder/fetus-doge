@@ -39,7 +39,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             Planning
           </SidebarLink>
           <SidebarLink
-            to='services'
+            to='usecases'
             onClick={toggle}
             smooth={true}
             duration={500}
@@ -47,7 +47,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             exact='true'
             offset={-80}
           >
-            Tokenomics
+            Usecases
           </SidebarLink>
           <SidebarLink
             to='elon'
@@ -59,6 +59,17 @@ const Sidebar = ({ isOpen, toggle }) => {
             offset={-80}
           >
             Elon Bounty
+          </SidebarLink>
+          <SidebarLink
+            to='services'
+            onClick={toggle}
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact='true'
+            offset={-80}
+          >
+            Tokenomics
           </SidebarLink>
           <SidebarLink
             to='signup'
