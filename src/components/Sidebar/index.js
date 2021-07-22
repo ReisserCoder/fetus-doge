@@ -50,6 +50,17 @@ const Sidebar = ({ isOpen, toggle }) => {
             Tokenomics
           </SidebarLink>
           <SidebarLink
+            to='elon'
+            onClick={toggle}
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact='true'
+            offset={-80}
+          >
+            Elon Bounty
+          </SidebarLink>
+          <SidebarLink
             to='signup'
             onClick={toggle}
             smooth={true}
@@ -59,6 +70,17 @@ const Sidebar = ({ isOpen, toggle }) => {
             offset={-80}
           >
             Join
+          </SidebarLink>
+          <SidebarLink
+            to='footer'
+            onClick={toggle}
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact='true'
+            offset={-80}
+          >
+            Socials
           </SidebarLink>
         </SidebarMenu>
       </SidebarWrapper>

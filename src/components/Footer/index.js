@@ -25,7 +25,7 @@ const Footer = () => {
     scroll.scrollToTop();
   };
   return (
-    <FooterContainer>
+    <FooterContainer id='footer'>
       <FooterWrap>
         <FooterLinksContainer>
           <FooterLinksWrapper>
@@ -43,23 +43,26 @@ const Footer = () => {
             </SocialLogo>
             <WebsiteRights>Fetus Doge © 2021 All rights reserved.</WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href='//instagram.com/fetusdoge' target='_blank' aria-label='Instagram'>
-                <FaInstagram />
-              </SocialIconLink>
-              <SocialIconLink
-                href='//www.youtube.com/channel/UCg0aftSmWoShMxnsZ_L8z1g'
-                target='_blank'
-                aria-label='Youtube'
-                //rel='noopener noreferrer'
-              >
-                <FaYoutube />
-              </SocialIconLink>
               <SocialIconLink
                 target='_blank'
                 aria-label='Twitter'
                 href='//www.twitter.com/fetusdoge'
               >
                 <FaTwitter />
+              </SocialIconLink>
+              <SocialIconLink
+                href='//www.youtube.com/channel/UCg0aftSmWoShMxnsZ_L8z1g'
+                target='_blank'
+                aria-label='Youtube'
+                rel='noopener noreferrer'
+              >
+                <FaYoutube />
+              </SocialIconLink>
+              <SocialIconLink
+                href='//instagram.com/fetusdoge'
+                target='_blank'
+                aria-label='Instagram'>
+                <FaInstagram />
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>

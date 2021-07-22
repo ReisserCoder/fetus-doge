@@ -65,6 +65,30 @@ export const HeroContent = styled.div`
   align-items: center;
 `;
 
+export const SocialMediaWrap = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin-top: 16px;
+
+  @media screen and (max-width: 820px) {
+    flex-direction: column;
+  }
+`;
+
+export const SocialIcons = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 160px;
+`;
+
+export const SocialIconLink = styled.a`
+  color: #FFF;
+  font-size: 24px;
+`;
+
 export const HeroImage = styled.img`
   max-width: 200px
 `
@@ -73,6 +97,7 @@ export const HeroH1 = styled.h1`
   color: #FFF;
   font-size: 48px;
   text-align: center;
+  margin-top: 6px;
 
   @media screen and (max-width: 768px) {
     font-size: 40px;
@@ -84,7 +109,7 @@ export const HeroH1 = styled.h1`
 `;
 
 export const HeroP = styled.p`
-  margin-top: 24px;
+  margin-top: 10px;
   color: #FFF;
   font-size: 24px;
   text-align: center;

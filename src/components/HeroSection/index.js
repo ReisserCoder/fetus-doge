@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import { Button } from '../Button';
-
+import {
+  FaInstagram,
+  FaYoutube,
+  FaTwitter,
+} from 'react-icons/fa';
 import Video from '../../videos/video.mp4';
 import Image from '../../images/logo.png';
 import {
@@ -14,7 +18,10 @@ import {
   CA,
   HeroBtnWrapper,
   ArrowForward,
-  ArrowRight
+  ArrowRight,
+  SocialMediaWrap,
+  SocialIconLink,
+  SocialIcons
 } from './HeroElements';
 
 function HeroSection() {
@@ -30,6 +37,31 @@ function HeroSection() {
       </HeroBg>
       <HeroContent>
         <HeroImage alt='logo' src={Image}></HeroImage>
+        <SocialMediaWrap>
+            <SocialIcons>
+              <SocialIconLink
+                target='_blank'
+                aria-label='Twitter'
+                href='//www.twitter.com/fetusdoge'
+              >
+                <FaTwitter />
+              </SocialIconLink>
+              <SocialIconLink
+                href='//www.youtube.com/channel/UCg0aftSmWoShMxnsZ_L8z1g'
+                target='_blank'
+                aria-label='Youtube'
+                rel='noopener noreferrer'
+              >
+                <FaYoutube />
+              </SocialIconLink>
+              <SocialIconLink
+                href='//instagram.com/fetusdoge'
+                target='_blank'
+                aria-label='Instagram'>
+                <FaInstagram />
+              </SocialIconLink>
+            </SocialIcons>
+            </SocialMediaWrap>
         <HeroH1>Fetus Doge</HeroH1>
         <HeroP>
           The youngest Doge. <br></br>
