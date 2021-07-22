@@ -95,6 +95,6 @@ export const ImgWrap = styled.div`
 `;
 
 export const Img = styled.img`
-  max-height: 450px;
+  max-height: 420px;
   width: 100%;
 `;

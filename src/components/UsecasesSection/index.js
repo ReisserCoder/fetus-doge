@@ -16,7 +16,7 @@ const Usecases = () => {
       <UsecasesCard>
           <UsecasesH2>Fetus Farm</UsecasesH2>
           <UsecasesP>
-            Stake your Fetus. Twins? Triplets? Maybe your mother would disagree but in this case the more Fetus the better! The tokenmonics aren't the only way for Fetus to make more Fetus.
+            Stake your Fetus. Twins? Triplets? Maybe your mother would disagree but in this case the more Fetus the better! The tokenomics aren't the only way for Fetus to make more Fetus.
           </UsecasesP>
         </UsecasesCard>
         <UsecasesCard>

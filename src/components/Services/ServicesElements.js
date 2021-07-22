@@ -82,3 +82,9 @@ export const ServicesP = styled.p`
   font-size: 1.1rem;
   text-align: center;
 `;
+
+export const ServicesA = styled.a`
+  font-size: 1.1rem;
+  text-align: center;
+  color: #E55D59;
+`;
