@@ -95,6 +95,10 @@ export const ImgWrap = styled.div`
 `;
 
 export const Img = styled.img`
-  max-height: 420px;
+  max-height: 475px;
   width: 100%;
+
+  @media screen and (max-width: 480px) {
+    max-height: 350px;
+  }
 `;

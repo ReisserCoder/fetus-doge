@@ -44,7 +44,7 @@ export const homeObjThree = {
   topLine: 'Fetus Doge Plan',
   headline: 'Failed marketing has ruined enough projects',
   description:
-    'The core team of seven has been around long enough to see what works and what does not. For more details, check the Litepaper. Whitepaper coming soon!',
+    'The core team of six has been around long enough to see what works and what does not. For more details, check the Litepaper. Whitepaper coming soon!',
   buttonLabel: 'Litepaper',
   href: '//docs.google.com/document/d/1vuNt47kSfiQOvMuh01VmTuWNDAYHg0c2zMt2HPGSlcc',
   imgStart: true,
