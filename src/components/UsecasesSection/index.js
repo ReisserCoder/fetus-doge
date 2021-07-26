@@ -1,11 +1,13 @@
 import React from 'react';
+import ImageReflections from '../../images/ada_reflections.png';
 import {
   UsecasesContainer,
   UsecasesH1,
   UsecasesWrapper,
   UsecasesCard,
   UsecasesH2,
-  UsecasesP
+  UsecasesP,
+  UsecasesImg
 } from './UsecasesElements';
 
 const Usecases = () => {
@@ -14,22 +16,24 @@ const Usecases = () => {
       <UsecasesH1>Usecases</UsecasesH1>
       <UsecasesWrapper>
       <UsecasesCard>
-          <UsecasesH2>Fetus Farm</UsecasesH2>
+          <UsecasesH2>ADA Reflections</UsecasesH2>
           <UsecasesP>
-            Stake your Fetus. Twins? Triplets? Maybe your mother would disagree but in this case the more Fetus the better! The tokenomics aren't the only way for Fetus to make more Fetus.
+            Reflections will come to you in the form of BEP-20 ADA. Our first step beyond that is building an interface to see track holders reflections. This will be right here on ADABoyToken.com.
           </UsecasesP>
         </UsecasesCard>
         <UsecasesCard>
-          <UsecasesH2>Fetus Swap</UsecasesH2>
-          <UsecasesP>
-            Part of the planning is to be able to buy and sell FDOGE, among other tokens, right through our website. Think of it like an umbilical cord between you and your Fetus. And always remember to feed your Fetus!
-          </UsecasesP>
+          <UsecasesImg src={ImageReflections} alt='Reflections Image'></UsecasesImg>
         </UsecasesCard>
-        
         <UsecasesCard>
-          <UsecasesH2>The Test Tube</UsecasesH2>
+          <UsecasesH2>Staking</UsecasesH2>
           <UsecasesP>
-          Blockchain babies? Has computer science gone too far? Rugpulls have. Not only will Fetus vet and audit new projects, but Fetus holders will automatically help these projects get started, and reap the rewards of a fresh launch in the process.
+            Right from the beginning, the ADA gained from reflections can be staked. After the reflections interface is up and running, the team will create staking opportunties directly for ADABoy tokens.
+          </UsecasesP>
+        </UsecasesCard> 
+        <UsecasesCard>
+          <UsecasesH2>The Future</UsecasesH2>
+          <UsecasesP>
+            The team has a vast array of ideas for the future of ADABoy. Many are new ideas on BSC and in crypto in g and better off left unshared, for now..
           </UsecasesP>
         </UsecasesCard>
       </UsecasesWrapper>

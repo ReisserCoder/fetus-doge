@@ -39,9 +39,9 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
-              Fetus Doge
+              ADABoy
             </SocialLogo>
-            <WebsiteRights>Fetus Doge © 2021 All rights reserved.</WebsiteRights>
+            <WebsiteRights>ADABoy © 2021 All rights reserved.</WebsiteRights>
             <SocialIcons>
               <SocialIconLink
                 target='_blank'

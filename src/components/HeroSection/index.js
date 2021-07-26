@@ -4,13 +4,14 @@ import {
   FaInstagram,
   FaYoutube,
   FaTwitter,
+  FaTelegram
 } from 'react-icons/fa';
-import Video from '../../videos/video.mp4';
-import Image from '../../images/logo.png';
+import Image from '../../images/adaboy_banner.png';
+import Image1 from '../../images/logo.png';
 import {
   HeroContainer,
   HeroBg,
-  VideoBg,
+  ImageBg,
   HeroContent,
   HeroImage,
   HeroH1,
@@ -33,47 +34,55 @@ function HeroSection() {
   return (
     <HeroContainer id='home'>
       <HeroBg>
-        <VideoBg playsInline autoPlay loop muted src={Video} type='video/mp4' />
+        <ImageBg alt='banner' src={Image}/>
       </HeroBg>
       <HeroContent>
-        <HeroImage alt='logo' src={Image}></HeroImage>
+        <HeroImage alt='logo' src={Image1}></HeroImage>
+        <HeroH1>ADABoy</HeroH1>
         <SocialMediaWrap>
             <SocialIcons>
-              <SocialIconLink
-                target='_blank'
-                aria-label='Twitter'
-                href='//www.twitter.com/fetusdoge'
-              >
-                <FaTwitter />
-              </SocialIconLink>
-              <SocialIconLink
-                href='//www.youtube.com/channel/UCg0aftSmWoShMxnsZ_L8z1g'
-                target='_blank'
-                aria-label='Youtube'
-                rel='noopener noreferrer'
-              >
-                <FaYoutube />
-              </SocialIconLink>
-              <SocialIconLink
-                href='//instagram.com/fetusdoge'
-                target='_blank'
-                aria-label='Instagram'>
-                <FaInstagram />
-              </SocialIconLink>
-            </SocialIcons>
-            </SocialMediaWrap>
-        <HeroH1>Fetus Doge</HeroH1>
+            <SocialIconLink
+              target='_blank'
+              aria-label='Twitter'
+              href='//www.twitter.com/@adaboytoken'
+            >
+              <FaTwitter />
+            </SocialIconLink>
+            <SocialIconLink
+              href=''
+              target='_blank'
+              aria-label='Youtube'
+              rel='noopener noreferrer'
+            >
+              <FaYoutube />
+            </SocialIconLink>
+            <SocialIconLink
+              href=''
+              target='_blank'
+              aria-label='Instagram'>
+              <FaInstagram />
+            </SocialIconLink>
+            <SocialIconLink
+              href=''
+              target='_blank'
+              aria-label='Telegram'
+              rel='noopener noreferrer'
+            >
+              <FaTelegram />
+            </SocialIconLink>
+          </SocialIcons>
+        </SocialMediaWrap>
         <HeroP>
-          The youngest Doge. <br></br>
-          The biggest potential. <br></br>
-          Goal: The Greatest Doge of all Time (GDAT) <br></br>
+          Great Rewards<br></br>
+          A Well Trained Team<br></br>
+          Treat Yourself with ADA<br></br>
           <CA>
-          CA: 0x045fd3795068358343608f469cd1a9b184be6f70
+          CA: ToBeUpdatedAtLaunch
           </CA>
         </HeroP>
         <HeroBtnWrapper>
           <Button
-            href='//poocoin.app/tokens/0x045fd3795068358343608f469cd1a9b184be6f70'
+            href='//poocoin.app/tokens/'
             smooth={true}
             duration={500}
             spy={true}
@@ -87,7 +96,7 @@ function HeroSection() {
             Chart {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
           <Button
-            href='https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x045fd3795068358343608f469cd1a9b184be6f70'
+            href='https://exchange.pancakeswap.finance/#/swap?outputCurrency='
             smooth={true}
             duration={500}
             spy={true}

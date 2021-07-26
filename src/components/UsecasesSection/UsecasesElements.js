@@ -6,8 +6,8 @@ export const UsecasesContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #F2BAA7;
-  color: #E55D59;
+  background: #113A72;
+  color: #FFC22E;
 
   @media screen and (max-width: 768px) {
     height: 1100px;
@@ -22,7 +22,7 @@ export const UsecasesWrapper = styled.div`
   max-width: 1000px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   grid-gap: 16px;
   padding: 0 50px;
@@ -58,7 +58,7 @@ export const UsecasesCard = styled.div`
 
 export const UsecasesH1 = styled.h1`
   font-size: 3.2rem;
-  color: #FFF;
+  color: #FFC22E;
   margin-bottom: 64px;
 
   @media screen and (max-width: 480px) {
@@ -67,11 +67,18 @@ export const UsecasesH1 = styled.h1`
 `;
 
 export const UsecasesH2 = styled.h2`
+  color: #113A72;
   font-size: 1.3rem;
   margin-bottom: 10px;
 `;
 
 export const UsecasesP = styled.p`
   font-size: 1.3rem;
+  color: #242020;
   text-align: center;
 `;
+
+export const UsecasesImg = styled.img`
+  height: 150px;
+  width: 150px;
+`

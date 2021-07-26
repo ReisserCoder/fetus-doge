@@ -2,12 +2,13 @@ import styled from 'styled-components';
 import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md';
 
 export const HeroContainer = styled.div`
-  background: #0c0c0c;
+  margin-top: 80px;
+  background: #FBF5F0;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 800px;
+  height: 720px;
   position: relative;
   z-index: 1;
 
@@ -18,21 +19,6 @@ export const HeroContainer = styled.div`
     left: 0;
     right: 0;
     bottom: 0;
-    background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        from(rgba(0, 0, 0, 0.2)),
-        to(rgba(0, 0, 0, 0.2))
-      ),
-      -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(transparent));
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.2) 0%,
-        rgba(0, 0, 0, 0.6) 100%
-      ),
-      linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
-    z-index: 2;
   }
 `;
 
@@ -42,24 +28,27 @@ export const HeroBg = styled.div`
   right: 0;
   bottom: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  max-height: 800px;
   overflow: hidden;
 `;
 
-export const VideoBg = styled.video`
+export const ImageBg = styled.img`
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  background: #232a34;
+  height: shrink-to-fit;
+  overflow: hidden;
 `;
 
 export const HeroContent = styled.div`
   z-index: 3;
   max-width: 1200px;
   position: absolute;
-  padding: 8px 24px;
+  margin-top: 200px;
+  padding: 6px 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,7 +59,6 @@ export const SocialMediaWrap = styled.div`
   justify-content: space-between;
   align-items: center;
   max-width: 1100px;
-  margin-top: 16px;
 
   @media screen and (max-width: 820px) {
     flex-direction: column;
@@ -85,19 +73,24 @@ export const SocialIcons = styled.div`
 `;
 
 export const SocialIconLink = styled.a`
-  color: #FFF;
+  color: #113A72;
   font-size: 24px;
 `;
 
 export const HeroImage = styled.img`
-  max-width: 200px
+  max-width: 200px;
+  transition: opacity .5s;
+
+  @media screen and (min-width: 1100px){
+    opacity: 0;
+  }
 `
 
 export const HeroH1 = styled.h1`
-  color: #FFF;
+  color: #113A72;
   font-size: 48px;
   text-align: center;
-  margin-top: 6px;
+  margin-top: -6px;
 
   @media screen and (max-width: 768px) {
     font-size: 40px;
@@ -106,11 +99,14 @@ export const HeroH1 = styled.h1`
   @media screen and (max-width: 480px) {
     font-size: 32px;
   }
+
+  @media screen and (min-width: 1100px){
+    opacity: 0;
+  }
 `;
 
 export const HeroP = styled.p`
-  margin-top: 10px;
-  color: #FFF;
+  color: #242020;
   font-size: 24px;
   text-align: center;
   max-width: 600px;
@@ -126,8 +122,8 @@ export const HeroP = styled.p`
 
 export const CA = styled.div`
   margin-top: 4px;
-  color: #FFF;
-  font-size: 24px;
+  color: #242020;
+  font-size: 18px;
   text-align: center;
   max-width: 600px;
 
