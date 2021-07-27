@@ -33,7 +33,7 @@ const Usecases = () => {
         <UsecasesCard>
           <UsecasesH2>The Future</UsecasesH2>
           <UsecasesP>
-            The team has a vast array of ideas for the future of ADABoy. Many are new ideas on BSC and in crypto in g and better off left unshared, for now..
+            The team has a vast array of ideas for the future of ADABoy. Many are new ideas on BSC and in crypto in general. These ideas are better off left unshared, for now..
           </UsecasesP>
         </UsecasesCard>
       </UsecasesWrapper>

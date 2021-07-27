@@ -11,15 +11,6 @@ export const HeroContainer = styled.div`
   height: 720px;
   position: relative;
   z-index: 1;
-
-  :before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
 `;
 
 export const HeroBg = styled.div`
@@ -28,7 +19,7 @@ export const HeroBg = styled.div`
   right: 0;
   bottom: 0;
   left: 0;
-  max-height: 800px;
+  max-height: 720px;
   overflow: hidden;
 `;
 

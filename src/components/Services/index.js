@@ -19,21 +19,21 @@ const Services = () => {
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1} />
-          <ServicesH2>4% FDoge Redistribution</ServicesH2>
+          <ServicesH2>X% ADA Redistribution</ServicesH2>
           <ServicesP>
-            The more you hold the more you receive.
+            Rewards distributed as BEP-20 ADA.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2} />
-          <ServicesH2>4% Liquidity Pool</ServicesH2>
+          <ServicesH2>Y% Liquidity Pool</ServicesH2>
           <ServicesP>
-            Liquidity is locked on <a href='https://dxsale.app/app/v2_9/dxlockview?id=0&add=0x656B9875624e5BceCe96910E5Fb840A90386840B&type=lplock&chain=BSC'>DxSale</a>.
+            Liquidity is locked on <a href='/'>DxSale</a>.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3} />
-          <ServicesH2>4% Marketing</ServicesH2>
+          <ServicesH2> Less than Y% Marketing</ServicesH2>
           <ServicesP>
             Quality marketing focused on building community.
           </ServicesP>
