@@ -3,7 +3,7 @@ import { Link as LinkR } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-  background: #113A72;
+  background: #1F5CC0;
   height: 80px;
   margin-top: -80px;
   display: flex;
@@ -46,7 +46,7 @@ export const MobileIcon = styled.div`
 
   @media screen and (max-width: 768px) {
     display: block;
-    color: '#113A72';
+    color: '#1F5CC0';
     position: absolute;
     top: 0;
     right: 0;
@@ -83,7 +83,7 @@ export const NavBtn = styled.nav`
 `;
 
 export const NavLinks = styled(LinkS)`
-  color: '#113A72';
+  color: '#1F5CC0';
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -101,7 +101,7 @@ export const NavBtnLink = styled(LinkR)`
   background: #FFC22E;
   white-space: nowrap;
   padding: 10px 22px;
-  color: #113A72;
+  color: #1F5CC0;
   font-size: 16px;
   outline: none;
   border: none;
@@ -112,6 +112,6 @@ export const NavBtnLink = styled(LinkR)`
   &:hover {
     transition: all 0.2s ease-in-out;
     background: #FFF;
-    color: #113A72;
+    color: #1F5CC0;
   }
 `;

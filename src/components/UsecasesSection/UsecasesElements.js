@@ -6,7 +6,7 @@ export const UsecasesContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #113A72;
+  background: #1F5CC0;
   color: #FFC22E;
 
   @media screen and (max-width: 768px) {
@@ -67,7 +67,7 @@ export const UsecasesH1 = styled.h1`
 `;
 
 export const UsecasesH2 = styled.h2`
-  color: #113A72;
+  color: #1F5CC0;
   font-size: 1.3rem;
   margin-bottom: 10px;
 `;

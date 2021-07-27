@@ -44,7 +44,7 @@ export const homeObjThree = {
   topLine: 'ADABoy Plan',
   headline: 'Organic Roots, Meaty Results',
   description:
-    'ADABoy was born with an established community. The ADABoy Pack is commited to community success. Family first. From there, an aggressive marketing campaign will transpire. Advertising choices will target the amount of buyers needed to grow our community. The bigger ADABoy gets, the louder it will bark. Click below for more information or scroll down to the ADABoy Roadmap.',
+    'ADABoy was born with an established community. The ADABoy Pack is committed to community success. Family first. From there, an aggressive marketing campaign will transpire. Advertising choices will target the amount of buyers needed to grow our community. The bigger ADABoy gets, the louder it will bark. Click below for more information or scroll down to the ADABoy Roadmap.',
   buttonLabel: 'Litepaper',
   href: '',
   imgStart: true,

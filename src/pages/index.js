@@ -12,6 +12,7 @@ import {
 } from '../components/InfoSection/Data';
 import UsecasesSection from '../components/UsecasesSection';
 import Services from '../components/Services';
+import RoadmapSection from '../components/RoadmapSection';
 
 function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,6 +30,7 @@ function Home() {
       <UsecasesSection />
       <InfoSection {...homeObjTwo} />
       <Services />
+      <RoadmapSection />
       <InfoSection {...homeObjFour} />
       <Footer />
     </>

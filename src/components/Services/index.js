@@ -19,21 +19,21 @@ const Services = () => {
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1} />
-          <ServicesH2>X% ADA Redistribution</ServicesH2>
+          <ServicesH2>8% ADA Redistribution</ServicesH2>
           <ServicesP>
             Rewards distributed as BEP-20 ADA.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2} />
-          <ServicesH2>Y% Liquidity Pool</ServicesH2>
+          <ServicesH2>3% Liquidity Pool</ServicesH2>
           <ServicesP>
             Liquidity is locked on <a href='/'>DxSale</a>.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3} />
-          <ServicesH2> Less than Y% Marketing</ServicesH2>
+          <ServicesH2>1% Marketing</ServicesH2>
           <ServicesP>
             Quality marketing focused on building community.
           </ServicesP>

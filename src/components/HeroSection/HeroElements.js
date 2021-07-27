@@ -64,7 +64,7 @@ export const SocialIcons = styled.div`
 `;
 
 export const SocialIconLink = styled.a`
-  color: #113A72;
+  color: #1F5CC0;
   font-size: 24px;
 `;
 
@@ -78,7 +78,7 @@ export const HeroImage = styled.img`
 `
 
 export const HeroH1 = styled.h1`
-  color: #113A72;
+  color: #1F5CC0;
   font-size: 48px;
   text-align: center;
   margin-top: -6px;
