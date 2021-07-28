@@ -8,7 +8,7 @@ export const homeObjOne = {
   description:
     'Finding a trustworthy token can be difficult, but congratulations, you found one! ADABoy is a loyal companion that always gives back. It gives back in ADA. Take a walk around the block, get ADA. Play ball in the park, get ADA. Even while you sleep, get ADA. All you have to do is hold ADABoy.',
   buttonLabel: 'Get ADA',
-  href: '',
+  href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x61059512739E31e272a697f04C0Ce4226504003D',
   imgStart: false,
   img: require('../../images/logo.png'),
   alt: 'token',
@@ -27,7 +27,7 @@ export const homeObjTwo = {
   description:
     'ADABoy has an accumulating bounty that increases with the value of ADABoy. Any holder of ADABoy who gets a reponse from Elon Musk on Twitter, or causes Elon to Tweet about ADABoy, will be airdropped the entire bounty. If the ADABoy main Twitter account receives a response the tokens will either be burned or donated to a cause chosen by Elon.',
   buttonLabel: 'Elon Wallet',
-  href: '',
+  //href: '',
   imgStart: false,
   img: require('../../images/logo.png'),
   alt: 'elon_poster',
@@ -46,7 +46,7 @@ export const homeObjThree = {
   description:
     'ADABoy was born with an established community. The ADABoy Pack is committed to community success. Family first. From there, an aggressive marketing campaign will transpire. Advertising choices will target the amount of buyers needed to grow our community. The bigger ADABoy gets, the louder it will bark. Click below for more information or scroll down to the ADABoy Roadmap.',
   buttonLabel: 'Litepaper',
-  href: '',
+  //href: '',
   imgStart: true,
   img: require('../../images/logo.png'),
   alt: 'diamonds',
@@ -65,7 +65,7 @@ export const homeObjFour = {
   description:
     "Links to the socials below.",
   buttonLabel: 'Telegram',
-  href: '',
+  href: 'https://t.me/Adaboytoken',
   imgStart: false,
   img: require('../../images/logo.png'),
   alt: 'logo',

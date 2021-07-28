@@ -19,16 +19,12 @@ export const HeroBg = styled.div`
   right: 0;
   bottom: 0;
   left: 0;
-  max-height: 720px;
+  max-height: 6400px;
   overflow: hidden;
 `;
 
 export const ImageBg = styled.img`
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
   width: 100%;
   height: shrink-to-fit;
   overflow: hidden;
@@ -81,7 +77,6 @@ export const HeroH1 = styled.h1`
   color: #1F5CC0;
   font-size: 48px;
   text-align: center;
-  margin-top: -6px;
 
   @media screen and (max-width: 768px) {
     font-size: 40px;

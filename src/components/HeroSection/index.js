@@ -49,21 +49,21 @@ function HeroSection() {
               <FaTwitter />
             </SocialIconLink>
             <SocialIconLink
-              href=''
+              //href=''
               target='_blank'
               aria-label='Youtube'
-              rel='noopener noreferrer'
+              //rel='noopener noreferrer'
             >
               <FaYoutube />
             </SocialIconLink>
             <SocialIconLink
-              href=''
+              href='//Instagram.com/adaboytoken'
               target='_blank'
               aria-label='Instagram'>
               <FaInstagram />
             </SocialIconLink>
             <SocialIconLink
-              href=''
+              href='https://t.me/Adaboytoken'
               target='_blank'
               aria-label='Telegram'
               rel='noopener noreferrer'
@@ -77,12 +77,12 @@ function HeroSection() {
           A Well Trained Team<br></br>
           Treat Yourself with ADA<br></br>
           <CA>
-          CA: ToBeUpdatedAtLaunch
+          CA: 0x61059512739E31e272a697f04C0Ce4226504003D
           </CA>
         </HeroP>
         <HeroBtnWrapper>
           <Button
-            href='//poocoin.app/tokens/'
+            href='//poocoin.app/tokens/0x61059512739E31e272a697f04C0Ce4226504003D'
             smooth={true}
             duration={500}
             spy={true}
@@ -96,7 +96,7 @@ function HeroSection() {
             Chart {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
           <Button
-            href='https://exchange.pancakeswap.finance/#/swap?outputCurrency='
+            href='https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x61059512739E31e272a697f04C0Ce4226504003D'
             smooth={true}
             duration={500}
             spy={true}

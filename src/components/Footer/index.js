@@ -30,7 +30,7 @@ const Footer = () => {
         <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLink href='//docs.google.com/document/d/1vuNt47kSfiQOvMuh01VmTuWNDAYHg0c2zMt2HPGSlcc'>
+              <FooterLink href=''>
                 Litepaper
               </FooterLink>
             </FooterLinkItems>
@@ -46,12 +46,12 @@ const Footer = () => {
               <SocialIconLink
                 target='_blank'
                 aria-label='Twitter'
-                href='//www.twitter.com/fetusdoge'
+                href='https://www.twitter.com/adaboytoken'
               >
                 <FaTwitter />
               </SocialIconLink>
               <SocialIconLink
-                href='//www.youtube.com/channel/UCg0aftSmWoShMxnsZ_L8z1g'
+                //href='/'
                 target='_blank'
                 aria-label='Youtube'
                 rel='noopener noreferrer'
@@ -59,7 +59,7 @@ const Footer = () => {
                 <FaYoutube />
               </SocialIconLink>
               <SocialIconLink
-                href='//instagram.com/fetusdoge'
+                href='//instagram.com/adaboytoken'
                 target='_blank'
                 aria-label='Instagram'>
                 <FaInstagram />
