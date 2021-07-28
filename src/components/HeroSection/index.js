@@ -77,12 +77,12 @@ function HeroSection() {
           A Well Trained Team<br></br>
           Treat Yourself with ADA<br></br>
           <CA>
-          CA: 0x61059512739E31e272a697f04C0Ce4226504003D
+          CA: 0x1e653794a6849bc8a78be50c4d48981afad6359d
           </CA>
         </HeroP>
         <HeroBtnWrapper>
           <Button
-            href='//poocoin.app/tokens/0x61059512739E31e272a697f04C0Ce4226504003D'
+            href='//poocoin.app/tokens/0x1e653794a6849bc8a78be50c4d48981afad6359d'
             smooth={true}
             duration={500}
             spy={true}
@@ -96,7 +96,7 @@ function HeroSection() {
             Chart {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
           <Button
-            href='https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x61059512739E31e272a697f04C0Ce4226504003D'
+            href='https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x1e653794a6849bc8a78be50c4d48981afad6359d'
             smooth={true}
             duration={500}
             spy={true}

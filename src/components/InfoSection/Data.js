@@ -8,7 +8,7 @@ export const homeObjOne = {
   description:
     'Finding a trustworthy token can be difficult, but congratulations, you found one! ADABoy is a loyal companion that always gives back. It gives back in ADA. Take a walk around the block, get ADA. Play ball in the park, get ADA. Even while you sleep, get ADA. All you have to do is hold ADABoy.',
   buttonLabel: 'Get ADA',
-  href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x61059512739E31e272a697f04C0Ce4226504003D',
+  href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x1e653794a6849bc8a78be50c4d48981afad6359d',
   imgStart: false,
   img: require('../../images/logo.png'),
   alt: 'token',
@@ -61,6 +61,7 @@ export const homeObjFour = {
   lightText: false,
   lightTextDesc: false,
   topLine: 'Join ADABoy',
+  
   headline: 'Join on Telegram',
   description:
     "Links to the socials below.",
