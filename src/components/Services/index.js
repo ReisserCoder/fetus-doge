@@ -28,7 +28,7 @@ const Services = () => {
           <ServicesIcon src={Icon2} />
           <ServicesH2>3% Liquidity Pool</ServicesH2>
           <ServicesP>
-            Liquidity is locked on <a href='/'>DxSale</a>.
+            Liquidity is locked on <a href='https://dxsale.app/app/v2_9/dxlockview?id=1&add=0x656B9875624e5BceCe96910E5Fb840A90386840B&type=lplock&chain=BSC'>DxSale</a>.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
