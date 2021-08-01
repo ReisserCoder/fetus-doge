@@ -91,12 +91,12 @@ export const BtnWrap = styled.div`
 `;
 
 export const ImgWrap = styled.div`
-  max-width: 475px;
+  max-width: 375px;
   justify-content: center;
 `;
 
 export const Img = styled.img`
-  max-height: 475px;
+  max-height: 375px;
   width: 100%;
 
   @media screen and (max-width: 480px) {

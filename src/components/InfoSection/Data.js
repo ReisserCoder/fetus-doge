@@ -10,7 +10,7 @@ export const homeObjOne = {
   buttonLabel: 'Get ADA',
   href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x1e653794a6849bc8a78be50c4d48981afad6359d',
   imgStart: false,
-  img: require('../../images/logo.png'),
+  img: require('../../images/FullADAboy.png'),
   alt: 'token',
   dark: true,
   primary: true,
@@ -46,7 +46,7 @@ export const homeObjThree = {
   description:
     'ADABoy was born with an established community. The ADABoy Pack is committed to community success. Family first. From there, an aggressive marketing campaign will transpire. Advertising choices will target the amount of buyers needed to grow our community. The bigger ADABoy gets, the louder it will bark. Click below for more information or scroll down to the ADABoy Roadmap.',
   buttonLabel: 'Litepaper',
-  //href: '',
+  href: '/litepaper',
   imgStart: true,
   img: require('../../images/logo.png'),
   alt: 'diamonds',

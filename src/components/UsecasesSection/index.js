@@ -18,7 +18,7 @@ const Usecases = () => {
       <UsecasesCard>
           <UsecasesH2>ADA Reflections</UsecasesH2>
           <UsecasesP>
-            Reflections will come to you in the form of BEP-20 ADA. Our first step beyond that is building an interface to see track holders reflections. This will be right here on ADABoyToken.com.
+            Reflections will come to you in the form of BEP-20 ADA. Our first step beyond that is building an interface for holders to see their reflections. This will be right here on ADABoyToken.com.
           </UsecasesP>
         </UsecasesCard>
         <UsecasesCard>
