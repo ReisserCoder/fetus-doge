@@ -2,7 +2,11 @@ import React, { useState } from 'react';
 import { Document, Page,pdfjs } from 'react-pdf';
 import File from '../../files/litepaper.pdf';
 
-import { LitepaperContainer } from './LitepaperElements'
+import {
+  LitepaperContainer,
+  Footer,
+  Buttonc
+} from './LitepaperElements'
 
 export default function Litepaper() {
 	
@@ -41,11 +45,11 @@ return (
 	>
 		<Page pageNumber={pageNumber} />
 	</Document>
-	<div>
+	<Footer>
 		<div className="pagec">
 		Page {pageNumber || (numPages ? 1 : '--')} of {numPages || '--'}
 		</div>
-		<div className="buttonc">
+		<Buttonc>
 		<button
 		type="button"
 		disabled={pageNumber <= 1}
@@ -69,8 +73,8 @@ return (
 		>
 		Home
 		</a>
-		</div>
-	</div>
+		</Buttonc>
+	</Footer>
 	</LitepaperContainer>
 	</>
 );
