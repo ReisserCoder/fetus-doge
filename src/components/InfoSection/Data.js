@@ -18,16 +18,16 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-  id: 'elon',
+  id: 'audit',
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'Elon Musk Bounty',
-  headline: 'ADABoy is on his Trail!',
+  topLine: 'ADABoy is SAFU',
+  headline: 'RugFreeCoins Audit',
   description:
-    'ADABoy has an accumulating bounty that increases with the value of ADABoy. Any holder of ADABoy who gets a reponse from Elon Musk on Twitter, or causes Elon to Tweet about ADABoy, will be airdropped the entire bounty. If the ADABoy main Twitter account receives a response the tokens will either be burned or donated to a cause chosen by Elon.',
-  buttonLabel: 'Elon Wallet',
-  href: 'https://bscscan.com/token/0x1e653794a6849bc8a78be50c4d48981afad6359d?a=0x140a511D66954457Eb552904fbbF90Ceb8092469',
+    'ADABoy was audited by RugFreeCoins.com and received a Low risk rating. The conclusion stated, "There is nothing alarming with the code." ADABoy was rated a 7.88 out of 10 in terms of potential. Only one category was rated below 8. Please click below for the full report. And remember, your investment is safe with ADABoy.',
+  buttonLabel: 'Audit Report',
+  href: 'https://github.com/Rugfreecoins/Smart-Contract-Audits/blob/main/ADA%20Boy%20Token.pdf',
   imgStart: false,
   img: require('../../images/logo.png'),
   alt: 'elon_poster',

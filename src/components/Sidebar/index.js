@@ -50,7 +50,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             Usecases
           </SidebarLink>
           <SidebarLink
-            to='elon'
+            to='audit'
             onClick={toggle}
             smooth={true}
             duration={500}
@@ -58,7 +58,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             exact='true'
             offset={-80}
           >
-            Elon Bounty
+            Audit
           </SidebarLink>
           <SidebarLink
             to='services'
