@@ -7,6 +7,7 @@ import {
   MobileIcon,
   Nav,
   NavbarContainer,
+  NavBtnLink,
   NavItem,
   NavLinks,
   NavLogo,
@@ -110,6 +111,9 @@ const Navbar = ({ toggle }) => {
                   Join
                 </NavLinks>
               </NavItem>
+              <NavBtnLink to='/dashboard'>
+                Dashboard
+              </NavBtnLink>
             </NavMenu>
           </NavbarContainer>
         </Nav>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Litepaper from '../components/Litepaper';
+import Litepaper from '../components/Home/Litepaper';
 
 function LitepaperPage() {
   return (

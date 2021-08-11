@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { Button } from '../Button';
+import { Button } from '../../Button';
 import {
   FaInstagram,
   FaYoutube,
   FaTwitter,
   FaTelegram
 } from 'react-icons/fa';
-import Image from '../../images/adaboy_banner.png';
-import Image1 from '../../images/logo.png';
+import Image from '../../../images/adaboy_banner.png';
+import Image1 from '../../../images/logo.png';
 import {
   HeroContainer,
   HeroBg,
@@ -49,7 +49,7 @@ function HeroSection() {
               <FaTwitter />
             </SocialIconLink>
             <SocialIconLink
-              //href=''
+              href='//www.youtube.com/channel/UCYJelvhOji7AWhcEqFUMDhw'
               target='_blank'
               aria-label='Youtube'
               //rel='noopener noreferrer'

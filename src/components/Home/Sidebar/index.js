@@ -6,6 +6,8 @@ import {
   SidebarWrapper,
   SidebarMenu,
   SidebarLink,
+  SideBtnWrap,
+  SidebarBtnLink
 } from './SidebarElements';
 
 const Sidebar = ({ isOpen, toggle }) => {
@@ -93,6 +95,11 @@ const Sidebar = ({ isOpen, toggle }) => {
           >
             Socials
           </SidebarLink>
+          <SideBtnWrap>
+          <SidebarBtnLink to='/dashboard'>
+            Dashboard
+          </SidebarBtnLink>
+          </SideBtnWrap>
         </SidebarMenu>
       </SidebarWrapper>
     </SidebarContainer>

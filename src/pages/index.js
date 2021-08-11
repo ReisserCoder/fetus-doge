@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
 
-import Navbar from '../components/Navbar';
-import Sidebar from '../components/Sidebar';
-import Footer from '../components/Footer';
-import HeroSection from '../components/HeroSection';
-import InfoSection from '../components/InfoSection';
+import Navbar from '../components/Home/Navbar';
+import Sidebar from '../components/Home/Sidebar';
+import Footer from '../components/Home/Footer';
+import HeroSection from '../components/Home/HeroSection';
+import InfoSection from '../components/Home/InfoSection';
 import {
   homeObjOne,
   homeObjTwo,
   homeObjThree,
   homeObjFour
-} from '../components/InfoSection/Data';
-import UsecasesSection from '../components/UsecasesSection';
-import Services from '../components/Services';
-import RoadmapSection from '../components/RoadmapSection';
+} from '../components/Home/InfoSection/Data';
+import UsecasesSection from '../components/Home/UsecasesSection';
+import Services from '../components/Home/Services';
+import RoadmapSection from '../components/Home/RoadmapSection';
 
 function Home() {
   const [isOpen, setIsOpen] = useState(false);

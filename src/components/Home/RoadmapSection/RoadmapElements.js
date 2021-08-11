@@ -7,6 +7,6 @@ export const RoadmapContainer = styled.div`
 `
 
 export const RoadmapImg = styled.img`
-  padding: 10px 40px;
+  padding: 40px 40px;
   max-width: 100vw;
 `

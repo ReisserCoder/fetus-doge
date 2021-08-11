@@ -70,7 +70,24 @@ export const SidebarLink = styled(LinkS)`
 export const SideBtnWrap = styled.div`
   display: flex;
   justify-content: center;
+  padding: 30px;
 `;
+
+export const SidebarBtnLink = styled(LinkR)`
+  border-radius: 50px;
+  background: #FFC22E;
+  white-space: nowrap;
+  width: 140px;
+  padding: 10px 22px;
+  margin-right: 5px;
+  color: #1F5CC0;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+`
 
 export const SidebarRoute = styled(LinkR)`
   border-radius: 50px;

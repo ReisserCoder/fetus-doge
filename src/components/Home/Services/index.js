@@ -1,7 +1,7 @@
 import React from 'react';
-import Icon1 from '../../images/svg-2.svg';
-import Icon2 from '../../images/svg-3.svg';
-import Icon3 from '../../images/svg-5.svg';
+import Icon1 from '../../../images/svg-2.svg';
+import Icon2 from '../../../images/svg-3.svg';
+import Icon3 from '../../../images/svg-5.svg';
 import {
   ServicesContainer,
   ServicesH1,
@@ -19,7 +19,7 @@ const Services = () => {
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1} />
-          <ServicesH2>8% ADA Redistribution</ServicesH2>
+          <ServicesH2>10% ADA Redistribution</ServicesH2>
           <ServicesP>
             Rewards distributed as BEP-20 ADA.
           </ServicesP>
@@ -33,7 +33,7 @@ const Services = () => {
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3} />
-          <ServicesH2>1% Marketing</ServicesH2>
+          <ServicesH2>2% Marketing</ServicesH2>
           <ServicesP>
             Quality marketing focused on building community.
           </ServicesP>

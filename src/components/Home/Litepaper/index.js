@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Document, Page,pdfjs } from 'react-pdf';
-import File from '../../files/litepaper.pdf';
+import File from '../../../files/litepaper.pdf';
 
 import {
   LitepaperContainer,

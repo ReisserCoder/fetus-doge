@@ -1,5 +1,5 @@
 import React from 'react';
-import ImageReflections from '../../images/ada_reflections.png';
+import ImageReflections from '../../../images/ada_reflections.png';
 import {
   UsecasesContainer,
   UsecasesH1,
